@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+
+
+*/{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+:root{
+    --cor1:black;
+    --cor2:white;
+}
+
+header{
+    margin: -10px -10px 0px -10px ;
+    background-color: var(--cor1);
+    color: var(--cor2);
+    padding: 25px 0px 10px 0px;
+    text-align: center;
+    
+}
+p{
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: "Passion One";
+}
+
+.imagem{
+    background-color: black;
+    background-image: url(fotos/background001.jpg);
+    background-position: center center;
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;
+}
+
+.imagem2{
+    background-color: black;
+    background-image: url(fotos/background002.jpg);
+    background-position: center center;
+    height:50vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;    
+}
+
+section > div > p{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.473);
+    width: 250px;
+    padding: 10px;
+    margin-left: 15px;
+   
+}
+div{
+    padding-top:20px;
+}
+
+footer{
+    background-color:var(--cor1);
+    color: var(--cor2);
+    text-align: center;
+    margin: 0px -10px 0px -10px ;
+}
