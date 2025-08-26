@@ -23,6 +23,11 @@ header{
     text-align: center;
     
 }
+a{
+    color:var(--cor2);
+    text-decoration: none;
+}
+
 p{
     margin-left: 10px;
     font-size: 20px;
@@ -30,7 +35,7 @@ p{
 }
 
 .imagem{
-    background-color: black;
+    background-color: var(--cor1);
     background-image: url(fotos/background001.jpg);
     background-position: center center;
     height: 300px;
@@ -41,7 +46,7 @@ p{
 }
 
 .imagem2{
-    background-color: black;
+    background-color: var(--cor1);
     background-image: url(fotos/background002.jpg);
     background-position: center center;
     height:50vh;
@@ -52,7 +57,7 @@ p{
 }
 
 section > div > p{
-    color: white;
+    color: var(--cor2);
     background-color: rgba(0, 0, 0, 0.473);
     width: 250px;
     padding: 10px;
